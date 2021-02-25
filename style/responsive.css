@@ -1,6 +1,11 @@
 @media screen and (max-width:800px) {
     body {
         background-color: rgb(255, 255, 255);
+        padding: 0 6%;
+    }
+
+    h1 {
+        font-size: 1.5em;
     }
 
     nav {
@@ -82,8 +87,8 @@
     }
 
     .aboutfigure{
-        margin-left: -26.5%;
-      }
+        display: none;
+    }
 
     .button{
         margin:0.2em auto;
