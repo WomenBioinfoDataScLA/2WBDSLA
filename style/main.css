@@ -177,13 +177,19 @@ nav a:hover{
 .aboutfigure{
   transform: rotate(-15deg);
   position: absolute;
-  margin-left: -20.5%;
+  margin-left: -18.5%;
   margin-top: -3%;
   width: 7vw;
 }
 
 /*----------------------------- BUTTON -----------------------------*/
 /*https://fdossena.com/?p=html5cool/buttons/i.frag*/
+
+.button-div{
+  margin-top: 20%;
+  display: flex;
+  justify-content: space-around;
+}
 
 .button{
   width: 10vw;
@@ -210,7 +216,7 @@ nav a:hover{
 }
 
 
-.tittle-div h2 {
+.tittle-div h2{
   font-size: 1.5em;
   text-align: left;
   color: white;
@@ -218,6 +224,17 @@ nav a:hover{
   position: relative;
   margin-left: -14%;
 }
+
+.tittle-div h3 {
+  font-size: 1.2em;
+  text-align: left;
+  color: white;
+  z-index: 25;
+  position: relative;
+  margin-left: -14%;
+  margin-top: 1%;
+}
+
 
 /*----------------------------- COFFEE AND SPONSORS -----------------------------*/
 
