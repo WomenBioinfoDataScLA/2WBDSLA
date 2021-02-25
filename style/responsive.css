@@ -25,13 +25,14 @@
     justify-content: right;
     }
     
-    .nav-options{
-        position: absolute;
-        margin-top: 36%;
+    .nav-options {
+        position: relative;
+        margin-top: 37vw;
         align-items: end;
-        margin-right: -2.5%;
+        margin-right: -34.5%;
+        background: white;
+        z-index: 20;
     }
-
     .logofigure img{
     width:auto;
     height:8.9vw;
