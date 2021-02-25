@@ -80,29 +80,42 @@
     .about{
         margin-right: 0;
     }
+
+    .aboutfigure{
+        margin-left: -26.5%;
+      }
+
     .button{
         margin:0.2em auto;
         padding: 3vw 2.6vw;
     }
-    .goals{
-        margin: 5vw 0vw;
-    }
-    .goals ul{
-        flex-direction: column;   
-    }
-    .purplerow{
-        padding: 0vw 3vw;
-    }
-    .projects{
-        margin: 5vw 0vw;   
-    }
-    .projects ul{
-        grid-template-rows: auto auto;
-        flex:1 1 100vw;
-    }
+    
+    .tittle-suport {
+        position: absolute;
+        margin-left: -50%;
+        margin-top: 3%;
+        width: 80%;
+      }
+      
+      .tittle-texts {
+        padding-top: 7%;
+      }
+      
+      .tittle-div h2{
+        font-size: 1.2em;
+        margin-left: 3%;
+      }
+      
+      .tittle-div h3 {
+        font-size: 1em;
+        margin-left: 3%;
+        margin-top: 1%;
+      }
+
     footer{
         flex-direction: column;
     }
+
     footer img{
         width: 5vw;
     }
