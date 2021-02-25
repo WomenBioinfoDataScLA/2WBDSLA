@@ -128,6 +128,27 @@
         width: 5vw;
     }
 }
+
+@media screen and (max-width:500px) {
+    .nav-options {
+        position: relative;
+        margin-top: 64vw;
+        align-items: end;
+        margin-right: 13.5%;
+        background: white;
+        z-index: 20;
+    }
+
+    .ham {
+        display: block;
+        position: absolute;
+        margin-right: 8%;
+        margin-top: 2%;
+    }
+}
+
+
+
 @media (min-width: 1200px) and (max-width: 1500px)
 nav ul > li a {
     padding: 11px 11px;
