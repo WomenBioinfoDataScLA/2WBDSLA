@@ -1,6 +1,8 @@
 @media screen and (max-width:800px) {
     body {
         background-color: rgb(255, 255, 255);
+    }
+    main {
         padding: 0 6%;
     }
 
