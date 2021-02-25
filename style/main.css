@@ -209,12 +209,15 @@ nav a:hover{
 
 
 
-.tittle-suport{
+.tittle-suport {
   position: absolute;
   margin-left: -50%;
-  margin-top: -2%;
+  margin-top: 3%;
 }
 
+.tittle-texts {
+  padding-top: 7%;
+}
 
 .tittle-div h2{
   font-size: 1.5em;
@@ -248,13 +251,17 @@ nav a:hover{
 }
 
 
+
+.speakers-section{
+  display: none;
+}
+
 /*----------------------------- FOOTER -----------------------------*/
 
 footer {
   background-color: #4d38a5;
-  margin-top: 1.5vw;
   margin-bottom: 0;
-  padding-top:1.5vw;
+  padding-top:3.5%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -270,6 +277,13 @@ footer section{
 footer h4 {
   color:#FFFFFF;
   margin-bottom: 0px;
+}
+
+.email-contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }
 
 address {
