@@ -282,8 +282,11 @@ footer h4 {
 .email-contact{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   width: 100%;
+}
+
+.email-contact img {
+  margin-right: 5px;
 }
 
 address {
