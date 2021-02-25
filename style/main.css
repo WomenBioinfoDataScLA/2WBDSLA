@@ -1,0 +1,315 @@
+/*----------------------------- import fonts -----------------------------*/
+@import url('https://fonts.google.com/?query=lato&preview.text_type=custom&selection.family=Lato:ital,wght@0,400;1,300;1,400');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  color: #906aac;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  line-height: 45px;
+  font-size: 2.5em;
+  color: rgb(140, 100, 170);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  width: 100%;
+}
+h2 {
+  font-size: 3.4vw;
+  text-align: center;
+}
+h3 {
+  font-size: 3vw;
+  text-align: center;
+}
+h4 {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+h5 {
+  font-size: 1vw;
+}
+h6 {
+  font-size: 0.9vw;
+}
+  
+p,li {
+  font-size: 17px;
+  color: rgb(85, 85, 85);
+  line-height: 27px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none; /* remove underline */
+  font-size: 17px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.disable {
+  display: none;
+}
+
+/*----------------------------- nav bar -----------------------------*/
+/*https://itnext.io/how-to-create-a-responsive-navigation-bar-with-html-css-and-jquery-step-by-step-tutorial-9c780b58479f*/
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin:0;
+  height:6vw;
+  width: 100%;  
+  background: white;
+}
+
+.logofigure{
+  margin:0 3vw;
+}
+
+.logofigure img{
+  width:auto;
+  height:4.9vw;
+  margin-top: 2%;
+}
+
+.arrowfigure{
+  margin:0px -1px 0px 0px;
+}
+
+.arrowfigure img{
+  height:5.1vw;
+}
+
+.header{
+  background-color: #4d38a5;
+  width: 100%;
+  height: 5.1vw;
+  display: flex;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin:0;
+}
+
+nav li{
+  list-style-type: none; 
+  margin: 0 1.5vw; 
+  font-size: 0.9vw;
+  font-weight: bold;
+}
+ 
+nav a{
+  color: rgb(254, 254, 254);
+  font-size: 13px;
+}
+
+nav a:hover{
+  color: #ffa992;
+}
+
+.active{
+  color: #ffa992
+}
+
+.lang-imige-mobile{
+  display: none;
+}
+
+.ham{
+  display: none;
+}
+
+.lang-img{
+  width: 32px;
+}
+
+.languages{
+  margin:0 0.35vw;
+}
+
+.languages a{
+  color:#bdf2f2;
+}
+
+.highlighted-text{
+  font-weight: bolder;
+  color: #5cc6d0;
+}
+
+/*----------------------------- ABOUT -----------------------------*/
+
+.row {
+  display: flex;
+  padding: 0;
+  margin: 5vw 12vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  padding: 3% 2%;
+  margin-right: 2%;
+  text-align: center;
+  z-index: 10;
+}
+
+.about p{
+  margin-bottom: 5%;
+  margin-top: 7%;
+}
+
+.aboutfigure{
+  transform: rotate(-15deg);
+  position: absolute;
+  margin-left: -20.5%;
+  margin-top: -3%;
+  width: 7vw;
+}
+
+/*----------------------------- BUTTON -----------------------------*/
+/*https://fdossena.com/?p=html5cool/buttons/i.frag*/
+
+.button{
+  width: 10vw;
+  padding: 0.7vw 2.6vw;
+  margin:1vw;
+  border-radius:2em; /* borda arredondada */
+  color:#FFFFFF;
+  background-color:  #5cc6d0;
+  transition: all 0.2s;
+  z-index: 10;
+}
+
+.button:hover{
+  background-color: #e7d4f9;
+  color: #906aac;
+}
+
+
+
+.tittle-suport{
+  position: absolute;
+  margin-left: -50%;
+  margin-top: -2%;
+}
+
+
+.tittle-div h2 {
+  font-size: 1.5em;
+  text-align: left;
+  color: white;
+  z-index: 25;
+  position: relative;
+  margin-left: -14%;
+}
+
+/*----------------------------- COFFEE AND SPONSORS -----------------------------*/
+
+.sponsors {
+  padding: 3vw 0vw;
+  text-align: center;
+}
+
+.sponsors p{
+  margin-bottom: 2vw;
+}
+
+
+/*----------------------------- FOOTER -----------------------------*/
+
+footer {
+  background-color: #4d38a5;
+  margin-top: 1.5vw;
+  margin-bottom: 0;
+  padding-top:1.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer h4 {
+  color:#FFFFFF;
+  margin-bottom: 0px;
+}
+
+address {
+  font-size: 13px;
+  line-height: 5.2vw;
+  color:#FFFFFF;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.medialinks{
+  height: 5.2vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+  line-height: 1vw;
+  padding:0;
+}
+
+.medialinks li{
+  list-style-type: none; /* remove bullet point */
+  margin: 0 1.5vw; /* add space between items in the list */
+}
+
+.medialinks img:hover {
+  background-color:rgb(92, 198, 208);
+  border-radius: 1.4vw;
+}
+
+/*--------WHO we are--------*/
+.memberslist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+}
+
+.member{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  width: 20vw;
+  height: 480px;
+}
+
+.member img{
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+  border-radius: 100%;
+}
+

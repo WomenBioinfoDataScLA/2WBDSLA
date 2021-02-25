@@ -1,0 +1,114 @@
+@media screen and (max-width:800px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+
+    nav {
+        height: 11vw;
+    }
+
+    .arrowfigure img{
+        height:9.1vw;
+      }
+      
+    .header{
+    height: 9.1vw;
+    padding-left: 22%;
+    padding-right: 12%;
+    justify-content: right;
+    }
+    
+    .nav-options{
+        position: absolute;
+        margin-top: 36%;
+        align-items: end;
+        margin-right: -2.5%;
+    }
+
+    .logofigure img{
+    width:auto;
+    height:8.9vw;
+    }
+   
+    nav ul{
+        flex-direction: column;
+        margin-top: 40%;
+        list-style-type: none;
+        z-index: 10;
+    }
+
+    nav a{
+        color: rgb(140, 100, 170);
+        font-size: 13px;
+    }
+    .lang-ul{
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .languages a,
+    .languajes h4{
+        color: rgb(140, 100, 170);
+    }
+    .sep{
+        color: rgb(140, 100, 170); 
+    }
+
+    .row{
+        flex-direction: column-reverse;
+        margin: 5vw 0vw;
+    }
+
+    .ham{
+        display: block;
+        position: absolute;
+        margin-right: -7%;
+        margin-top: 2%;
+    }
+
+    .ham img{
+        width: 18px;
+    }
+
+    .lang-imige-mobile{
+        display: block;
+        width: 19px;
+        margin-top: -44px;
+        margin-left: 9px;
+      }
+
+    .about{
+        margin-right: 0;
+    }
+    .button{
+        margin:0.2em auto;
+        padding: 3vw 2.6vw;
+    }
+    .goals{
+        margin: 5vw 0vw;
+    }
+    .goals ul{
+        flex-direction: column;   
+    }
+    .purplerow{
+        padding: 0vw 3vw;
+    }
+    .projects{
+        margin: 5vw 0vw;   
+    }
+    .projects ul{
+        grid-template-rows: auto auto;
+        flex:1 1 100vw;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer img{
+        width: 5vw;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1500px)
+nav ul > li a {
+    padding: 11px 11px;
+    font-size: 13px;
+}
