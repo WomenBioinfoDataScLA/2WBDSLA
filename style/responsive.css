@@ -27,7 +27,7 @@
     
     .nav-options {
         position: relative;
-        margin-top: 37vw;
+        margin-top: 40vw;
         align-items: end;
         margin-right: -34.5%;
         background: white;
@@ -93,33 +93,45 @@
         display: none;
     }
 
-    .button{
-        margin:0.2em auto;
-        padding: 3vw 2.6vw;
+    .code-button-section figcaption {
+        font-size: 1.2em;
+        color: white;
+        margin-top: -6.5%;
+    }
+
+    .code-button-section img {
+        width: 41vw;
     }
     
+    .tittle-div {
+        margin-top: 5%;
+    }
+
     .tittle-suport {
         position: absolute;
         margin-left: -50%;
         margin-top: 3%;
         width: 80%;
-      }
+    }
       
-      .tittle-texts {
-        padding-top: 7%;
-      }
-      
-      .tittle-div h2{
-        font-size: 1.2em;
-        margin-left: 3%;
-      }
-      
-      .tittle-div h3 {
-        font-size: 1em;
-        margin-left: 3%;
-        margin-top: 1%;
-      }
+    .tittle-texts {
+    padding-top: 7%;
+    }
+    
+    .tittle-div h2{
+    font-size: 3.5vw;
+    margin-left: 3%;
+    }
+    
+    .tittle-div h3 {
+    font-size: 3vw;
+    margin-left: 3%;
+    margin-top: 1%;
+    }
 
+    .button-div {
+    margin-top: 16%;
+    }
     footer{
         flex-direction: column;
     }
@@ -127,6 +139,22 @@
     footer img{
         width: 5vw;
     }
+
+    .email-contact {
+        display: flex;
+        flex-direction: row;
+        width: 88%;
+        justify-content: center;
+    }
+
+    footer section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+
 }
 
 @media screen and (max-width:500px) {
@@ -147,10 +175,3 @@
     }
 }
 
-
-
-@media (min-width: 1200px) and (max-width: 1500px)
-nav ul > li a {
-    padding: 11px 11px;
-    font-size: 13px;
-}

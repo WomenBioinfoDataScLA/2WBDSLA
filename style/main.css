@@ -186,7 +186,7 @@ nav a:hover{
 /*https://fdossena.com/?p=html5cool/buttons/i.frag*/
 
 .button-div{
-  margin-top: 20%;
+  margin-top: 17%;
   display: flex;
   justify-content: space-around;
 }
@@ -207,7 +207,9 @@ nav a:hover{
   color: #906aac;
 }
 
-
+.tittle-div {
+  margin-top: 5%;
+}
 
 .tittle-suport {
   position: absolute;
@@ -239,21 +241,29 @@ nav a:hover{
 }
 
 
-/*----------------------------- COFFEE AND SPONSORS -----------------------------*/
-
-.sponsors {
-  padding: 3vw 0vw;
-  text-align: center;
-}
-
-.sponsors p{
-  margin-bottom: 2vw;
-}
-
-
-
 .speakers-section{
   display: none;
+}
+
+
+.code-button-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mujer-code{
+  width: 10vw;
+  margin-bottom: -5px;
+}
+.code-suport {
+  width: 24vw;
+}
+
+.code-button-section figcaption {
+  font-size: 1.5em;
+  color: white;
+  margin-top: -4.5%;
 }
 
 /*----------------------------- FOOTER -----------------------------*/
@@ -262,6 +272,7 @@ footer {
   background-color: #4d38a5;
   margin-bottom: 0;
   padding-top:3.5%;
+  padding-bottom:3.5%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
