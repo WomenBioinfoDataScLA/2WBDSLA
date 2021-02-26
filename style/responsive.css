@@ -94,14 +94,18 @@
     }
 
     .code-button-section figcaption {
-        font-size: 1.2em;
+        font-size: 0.8em;
         color: white;
-        margin-top: -6.5%;
+        margin-top: -4.5%;
     }
 
-    .code-button-section img {
-        width: 41vw;
-    }
+    .mujer-code{
+        width: 10vw;
+        margin-bottom: -5px;
+      }
+      .code-suport {
+        width: 24vw;
+      }
     
     .tittle-div {
         margin-top: 5%;
