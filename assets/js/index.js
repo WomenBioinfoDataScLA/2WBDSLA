@@ -1,6 +1,9 @@
 const ham = document.getElementById('ham-list');
 const cross = document.getElementById('cross-icon');
 const navOptions = document.getElementById('nav-options');
+const codeSection = document.getElementById("code-of-conduct-section");
+const aboutSection = document.getElementById("about-inner");
+const codeButton = document.getElementById("code-button-section");
 
 function disableElement(element) {
     element.classList.add('disable');
@@ -23,3 +26,7 @@ ham.addEventListener("click", () => {
     enableElement(cross);
     enableElement(navOptions);
 });
+
+codeButton.addEventListener("click", () => {
+    disableElement(aboutSection);
+})

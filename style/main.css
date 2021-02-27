@@ -175,10 +175,10 @@ nav a:hover{
 }
 
 .aboutfigure{
-  transform: rotate(-15deg);
+  transform: rotate(5deg);
   position: absolute;
   margin-left: -18.5%;
-  margin-top: -3%;
+  margin-top: -3.5%;
   width: 7vw;
 }
 
@@ -192,6 +192,7 @@ nav a:hover{
 }
 
 .button{
+  position: relative;
   width: 10vw;
   padding: 0.7vw 2.6vw;
   margin:1vw;
@@ -203,8 +204,8 @@ nav a:hover{
 }
 
 .button:hover{
-  background-color: #e7d4f9;
-  color: #906aac;
+  background-color: #ffa992;
+  color: #4d38a5;
 }
 
 .tittle-div {
@@ -245,7 +246,6 @@ nav a:hover{
   display: none;
 }
 
-
 .code-button-section {
   display: flex;
   flex-direction: column;
@@ -264,6 +264,10 @@ nav a:hover{
   font-size: 1.5em;
   color: white;
   margin-top: -4.5%;
+}
+
+.code-button-section figcaption:hover {
+  color: #4d38a5;
 }
 
 /*----------------------------- FOOTER -----------------------------*/
