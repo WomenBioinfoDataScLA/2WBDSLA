@@ -310,9 +310,6 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  border-top-left-radius: 16%;
-  border-top-right-radius: 69%;
-  z-index: 25;
 }
 
 footer section{
