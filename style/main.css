@@ -256,6 +256,12 @@ nav a:hover{
   width: 10vw;
   margin-bottom: -5px;
 }
+
+.code-of-conduct-section {
+  padding: 5% 12%;
+  margin-top: -8%;
+}
+
 .code-suport {
   width: 24vw;
 }
@@ -270,6 +276,29 @@ nav a:hover{
   color: #4d38a5;
 }
 
+.code-of-conduct-section div {
+  margin: 5% 0;
+}
+
+.code-of-conduct-section div:hover {
+  transform: scale(1.05);
+}
+
+.code-img-women{
+  width: 11em;
+  position: absolute;
+  margin-top: -11%;
+  margin-left: -14%;
+}
+
+.code-hojas {
+  width: 11em;
+  position: absolute;
+  margin-top: -4%;
+  margin-left: 65%;
+  transform: rotate(5deg);
+}
+
 /*----------------------------- FOOTER -----------------------------*/
 
 footer {
@@ -281,6 +310,9 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  border-top-left-radius: 16%;
+  border-top-right-radius: 69%;
+  z-index: 25;
 }
 
 footer section{
