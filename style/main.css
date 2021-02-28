@@ -172,6 +172,10 @@ nav a:hover{
   margin-top: 7%;
 }
 
+.about p:hover {
+  transform: scale(1.05);
+}
+
 .aboutfigure{
   transform: rotate(5deg);
   position: absolute;
@@ -242,18 +246,21 @@ nav a:hover{
 
 .speakers-section{
   display: block;
+  margin-top: -2%;
+  margin-bottom: 5%;
 }
 
 .speaker-bio {
   display: flex;
   flex-direction: column;
   padding: 2% 10%;
-  justify-content: space-between;
+  text-align: center;
 }
 
 .speaker-bio img {
   width: 9em;
   border-radius: 50%;
+  margin-bottom: 2%;
 }
 
 .bios-container {
@@ -312,6 +319,22 @@ nav a:hover{
   margin-top: -4%;
   margin-left: 65%;
   transform: rotate(5deg);
+}
+
+
+.sponsorship-section{
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+  margin-bottom: 5%;
+}
+
+.sponsorship-section h2 {
+  margin-bottom: 2%;
+}
+
+.sponsorship-section p {
+  margin-bottom: 2%;
 }
 
 /*----------------------------- FOOTER -----------------------------*/

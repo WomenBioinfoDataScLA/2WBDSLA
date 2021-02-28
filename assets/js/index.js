@@ -6,6 +6,8 @@ const aboutSection = document.getElementById("about-inner");
 const codeButton = document.getElementById("code-button-section");
 const speakersButton = $("#speakers-nav-button");
 const speakersSection = $('#speakers-section');
+const sponsorsButton = $('#sponsors-nav-button');
+const sponsorSection = $('#sponsorship-section');
 
 function disableElement(element) {
     element.classList.add('disable');
@@ -32,7 +34,6 @@ function renderCodeCon() {
     const pReport = document.createElement('p');
     const pIntro = document.createElement('p');
     const imgBottom = document.createElement('img');
-    const imgTop = document.createElement('img');
 
 
     h2.innerHTML = "Code of Conduct";
@@ -81,11 +82,11 @@ function renderCodeCon() {
 
 const speakersList = [
 {"name": "Daniela Robles",'img':'Daniela_Robles.png', "filiation": "UNAM - Mexico"},
-{"name": "Janet Gonzalez","img":"Janneth_Gonzalez.png","filiation":"UNAM - Mexico"}
+{"name": "Janet Gonzalez","img":"Daniela_Robles.png","filiation":"UNAM - Mexico"}
 ];
 
 function renderSpeakersBios() {
-    const pictsDivRow = $('<div class="bios-container"></div>')
+    const pictsDivRow = $('<div class="bios-container"></div>');
 
     speakersList.forEach(element => {
         const speakerBio = $(`
@@ -99,6 +100,25 @@ function renderSpeakersBios() {
     });
 
     pictsDivRow.appendTo(speakersSection);
+}
+
+
+function renderSponsorshipSection() {
+    const sponsorsSectionContent = $(`
+    <div class="sponrship-content">
+        <h2>Sponsorship opportunities</h2>
+        <p>The Network of Women in Bioinformatics and Data
+        Science LA is a community seeking to reduce the gender
+        gap in STEM. This is an opportunity to support and
+        promote the dissemination of the work carried out by
+        women and leading dissidents in the fields of IT and
+        academic research</p>
+        <p> We offer a variety of sponsorship opportunities, including advertisement space in our conference program and website.
+        For information on sponsorship opportunities, please download the sponsorship <a target=”_blank” href="https://drive.google.com/file/d/1myA94IjMknfAJIAqnQTTakabAooh5f7z/view?usp=sharing">brochure</a>
+        If you need more information on sponsorship, please email: <a target=”_blank” href="#">womenbioinformaticsnetworkla@gmail.com</a></p>
+    </div>`);
+
+    sponsorsSectionContent.appendTo(sponsorSection)
 }
 
 cross.addEventListener("click", () => {
@@ -128,3 +148,9 @@ speakersButton.on('click', () =>{
     renderSpeakersBios();
 })
 
+
+sponsorsButton.on('click', () => {
+    disableElement(aboutSection);
+    sponsorSection.remove("disable");
+    renderSponsorshipSection();
+})
