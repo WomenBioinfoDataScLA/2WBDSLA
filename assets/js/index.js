@@ -88,7 +88,13 @@ function renderSpeakersBios() {
     const pictsDivRow = $('<div class="bios-container"></div>')
 
     speakersList.forEach(element => {
-        const speakerBio = $(`<figure class="speaker-bio"> <img src="./assets/img/speakers/${element.img}" alt="${element.name}-img"> <figcaption>${element.name}</figcaption><figcaption>${element.filiation}</figcaption></figure>`);
+        const speakerBio = $(`
+        <figure class="speaker-bio"> 
+            <img src="./assets/img/speakers/${element.img}" alt="${element.name}-img"> 
+            <figcaption>${element.name}</figcaption>
+            <figcaption>${element.filiation}</figcaption>
+        </figure>`
+        );
         speakerBio.appendTo(pictsDivRow);
     });
 
