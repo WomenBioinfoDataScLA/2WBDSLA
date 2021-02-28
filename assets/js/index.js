@@ -4,6 +4,8 @@ const navOptions = document.getElementById('nav-options');
 const codeSection = document.getElementById("code-of-conduct-section");
 const aboutSection = document.getElementById("about-inner");
 const codeButton = document.getElementById("code-button-section");
+const speakersButton = $("#speakers-nav-button");
+const speakersSection = $('#speakers-section');
 
 function disableElement(element) {
     element.classList.add('disable');
@@ -76,6 +78,23 @@ function renderCodeCon() {
     codeSection.appendChild(imgBottom);
 }
 
+
+const speakersList = [
+{"name": "Daniela Robles",'img':'Daniela_Robles.png', "filiation": "UNAM - Mexico"},
+{"name": "Janet Gonzalez","img":"Janneth_Gonzalez.png","filiation":"UNAM - Mexico"}
+];
+
+function renderSpeakersBios() {
+    const pictsDivRow = $('<div class="bios-container"></div>')
+
+    speakersList.forEach(element => {
+        const speakerBio = $(`<figure class="speaker-bio"> <img src="./assets/img/speakers/${element.img}" alt="${element.name}-img"> <figcaption>${element.name}</figcaption><figcaption>${element.filiation}</figcaption></figure>`);
+        speakerBio.appendTo(pictsDivRow);
+    });
+
+    pictsDivRow.appendTo(speakersSection);
+}
+
 cross.addEventListener("click", () => {
     disableElement(cross);
     enableElement(ham);
@@ -95,3 +114,11 @@ codeButton.addEventListener("click", () => {
     renderCodeCon();
 
 })
+
+
+speakersButton.on('click', () =>{
+    disableElement(aboutSection);
+    speakersSection.remove("disable");
+    renderSpeakersBios();
+})
+

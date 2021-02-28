@@ -1,6 +1,4 @@
 /*----------------------------- import fonts -----------------------------*/
-@import url('https://fonts.google.com/?query=lato&preview.text_type=custom&selection.family=Lato:ital,wght@0,400;1,300;1,400');
-
 * {
   margin: 0;
   padding: 0;
@@ -196,7 +194,7 @@ nav a:hover{
   width: 10vw;
   padding: 0.7vw 2.6vw;
   margin:1vw;
-  border-radius:2em; /* borda arredondada */
+  border-radius:2em;
   color:#FFFFFF;
   background-color:  #5cc6d0;
   transition: all 0.2s;
@@ -243,7 +241,24 @@ nav a:hover{
 
 
 .speakers-section{
-  display: none;
+  display: block;
+}
+
+.speaker-bio {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 10%;
+  justify-content: space-between;
+}
+
+.speaker-bio img {
+  width: 9em;
+  border-radius: 50%;
+}
+
+.bios-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .code-button-section {
