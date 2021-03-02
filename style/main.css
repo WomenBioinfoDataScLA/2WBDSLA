@@ -325,14 +325,14 @@ nav a:hover{
 .code-img-left{
   width: 11em;
   position: absolute;
-  margin-top: -4%;
+  margin-top: 1%;
   margin-left: 74%;
 }
 
 .code-img-right{
   width: 11em;
   position: absolute;
-  margin-top: -3%;
+  margin-top: 1%;
   margin-left: -11%;
   transform: scaleX(-1);
 }
@@ -340,7 +340,7 @@ nav a:hover{
 .code-hojas {
   width: 11em;
   position: absolute;
-  margin-top: -4%;
+  margin-top: 1%;
   margin-left: 65%;
   transform: rotate(5deg);
 }
@@ -349,7 +349,7 @@ nav a:hover{
 .sponsorship-section{
   display: flex;
   flex-direction: column;
-  padding: 0 10%;
+  padding: 0 14%;
   margin-bottom: 11%;
   margin-top: 1%;
 }
@@ -366,7 +366,7 @@ nav a:hover{
   width: 8em;
   position: absolute;
   margin-top: -6.3%;
-  margin-left: 59%;
+  margin-left: 55%;
 }
 
 /*----------------------------- FOOTER -----------------------------*/
