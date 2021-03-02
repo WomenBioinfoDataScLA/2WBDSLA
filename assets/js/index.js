@@ -17,6 +17,11 @@ function enableElement(element) {
     element.classList.remove('disable');
 }
 
+function cleanBody() {
+    speakersSection.empty();
+    $(codeSection).empty();
+}
+
 function renderCodeCon() {
     const introDiv = document.createElement('div');
     const secDiv = document.createElement('div');
@@ -136,21 +141,20 @@ ham.addEventListener("click", () => {
 
 codeButton.addEventListener("click", () => {
     disableElement(aboutSection);
-    codeSection.classList.remove("disable");
+    cleanBody();
     renderCodeCon();
-
 })
 
 
 speakersButton.on('click', () =>{
     disableElement(aboutSection);
-    speakersSection.remove("disable");
+    cleanBody();
     renderSpeakersBios();
 })
 
 
 sponsorsButton.on('click', () => {
     disableElement(aboutSection);
-    sponsorSection.remove("disable");
+    cleanBody();
     renderSponsorshipSection();
 })
