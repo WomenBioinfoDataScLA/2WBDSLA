@@ -51,15 +51,19 @@ h6 {
 
 p,
 li {
-    font-size: 1.2em;
+    font-size: 1.6em;
     color: rgb(85, 85, 85);
     line-height: 27px;
     text-align: center;
 }
 
+p {
+    line-height: 45px;
+}
+
 a {
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 27px;
     text-align: center;
 }
@@ -120,7 +124,7 @@ nav li {
 
 nav a {
     color: rgb(254, 254, 254);
-    font-size: 13px;
+    font-size: 17px;
 }
 
 nav a:hover {
@@ -185,7 +189,7 @@ nav a:hover {
     transform: rotate(5deg);
     position: absolute;
     margin-left: -15.5%;
-    margin-top: -3.5%;
+    margin-top: -3.9%;
     width: 7vw;
 }
 
@@ -197,7 +201,7 @@ nav a:hover {
 
 .button {
     position: relative;
-    width: 10vw;
+    width: 15vw;
     padding: 0.7vw 2.6vw;
     margin: 1vw;
     border-radius: 2em;
@@ -223,7 +227,7 @@ nav a:hover {
 }
 
 .tittle-texts {
-    padding-top: 7%;
+    padding-top: 6.2%;
 }
 
 .tittle-div h2 {
@@ -259,9 +263,10 @@ nav a:hover {
 }
 
 .speaker-bio img {
-    width: 9em;
     border-radius: 50%;
     margin-bottom: 2%;
+    border: solid 20px #ffa992;
+    height: 225px;
 }
 
 .speakers-img-left {
@@ -279,9 +284,23 @@ nav a:hover {
     transform: scaleX(-1);
 }
 
+.speaker-bio figcaption {
+    font-size: 1.3em;
+    margin-top: 11px;
+}
+
 .bios-container {
     display: flex;
     flex-direction: row;
+}
+
+.caption-bio {
+    font-weight: bolder;
+}
+
+.sub-caption-bio {
+    color: rgb(92, 198, 208);
+    font-weight: normal;
 }
 
 .code-button-section {
@@ -305,7 +324,7 @@ nav a:hover {
 }
 
 .code-button-section figcaption {
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: white;
     margin-top: -4.5%;
 }
@@ -349,7 +368,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     padding: 0 14%;
-    margin-bottom: 11%;
+    margin-bottom: 20%;
     margin-top: 1%;
 }
 
@@ -364,8 +383,32 @@ nav a:hover {
 .sponrship-content img {
     width: 8em;
     position: absolute;
-    margin-top: -6.3%;
-    margin-left: 55%;
+    margin-top: -3.9%;
+    margin-left: 53.1%;
+}
+
+.poster-section {
+    padding: 0 10%;
+    margin-top: -10%;
+}
+
+.poster-section article,
+.poster-section p {
+    margin-bottom: 5%;
+}
+
+.comittees {
+    margin-top: -5%;
+    margin-bottom: 4%;
+}
+
+.comittees h2 {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.comittees li {
+    margin-top: 15px;
 }
 
 footer {
