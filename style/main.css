@@ -163,6 +163,7 @@ nav a:hover{
 .about {
   padding: 3% 2%;
   margin-right: 2%;
+  margin-top: 5%;
   text-align: center;
   z-index: 10;
 }
@@ -266,14 +267,14 @@ nav a:hover{
 .speakers-img-left{
   width: 11em;
   position: absolute;
-  margin-top: -4%;
+  margin-top: 2%;
   margin-left: 84%;
 }
 
 .speakers-img-right{
   width: 11em;
   position: absolute;
-  margin-top: -3%;
+  margin-top: 2%;
   margin-left: 1%;
   transform: scaleX(-1);
 }
@@ -350,7 +351,7 @@ nav a:hover{
   flex-direction: column;
   padding: 0 10%;
   margin-bottom: 11%;
-  margin-top: -4%;
+  margin-top: 1%;
 }
 
 .sponsorship-section h2 {
