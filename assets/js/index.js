@@ -18,6 +18,7 @@ function enableElement(element) {
 }
 
 function cleanBody() {
+    disableElement(aboutSection);
     speakersSection.empty();
     $(codeSection).empty();
 }
@@ -140,21 +141,18 @@ ham.addEventListener("click", () => {
 });
 
 codeButton.addEventListener("click", () => {
-    disableElement(aboutSection);
     cleanBody();
     renderCodeCon();
 })
 
 
 speakersButton.on('click', () =>{
-    disableElement(aboutSection);
     cleanBody();
     renderSpeakersBios();
 })
 
 
 sponsorsButton.on('click', () => {
-    disableElement(aboutSection);
     cleanBody();
     renderSponsorshipSection();
 })
