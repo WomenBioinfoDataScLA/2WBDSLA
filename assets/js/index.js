@@ -151,16 +151,16 @@ function renderSponsorshipSection() {
 
 function renderRegistrationSection() {
     const registrationContent = $(`
-    <h3>FAQs Virtual Poster Session 2020</h3>
-    <h5><strong>Who can send an abstract?</strong></h5>
+    <h2>FAQs Virtual Poster Session 2020</h2>
+    <h3><strong>Who can send an abstract?</strong></h3>
     <p>This event is open to the entire community, anyone can send an abstract for the poster session and be selected for oral presentation. </p>
-    <h5><strong>How will be the selection for oral presentation?</strong></h5>
+    <h3><strong>How will be the selection for oral presentation?</strong></h3>
     <p>All abstracts will be reviewed by 2 specialists in the field. According to their recommendations, the Scientific Committee will determine if the abstract is presented as oral or poster. </p>
-    <h5><strong>Which will be the virtual poster session format?</strong></h5>
+    <h3><strong>Which will be the virtual poster session format?</strong></h3>
     <p>Virtual poster sessions will be done through a 10-minute live presentation in a virtual room. Every room will count with a host and a moderator. At the end of the presentations, 5 minutes discussions will be allowed in small groups. </p>
-    <h5><strong>How is the format poster?</strong></h5>
+    <h3><strong>How is the format poster?</strong></h3>
     <p>Participants will receive from the official email account a template PowerPoint slide.</p>
-    <h5><strong>Which topics does congress have?</strong></h5>
+    <h3><strong>Which topics does congress have?</strong></h3>
     <p>Deep Learning </p>
     <p>Data mining and big data analysis</p>
 
@@ -174,7 +174,7 @@ function renderRegistrationSection() {
     <hr style="border:2px solid white;">
     <hr style="border:2px solid white;">
     <h2>Volunteers</h2>
-    <p>If you want to join the volunteers team for helping us during the event, pleas clomplete this <a target="_blank" href="https://forms.gle/kL2MPyG8xAGgqiFDA">form</a> and soon you will be contacted. Thank you!!</p>
+    <p>If you want to join the volunteers team for helping us during the event, pleas clomplete this <a target="_blank" href="#">form</a> and soon you will be contacted. Thank you!!</p>
 
     `);
 
@@ -280,4 +280,9 @@ committeeButton.on('click', () => {
 sponsorsButton.on('click', () => {
     cleanBody();
     renderSponsorshipSection();
+})
+
+registrationButton.on('click', () => {
+    cleanBody();
+    renderRegistrationSection();
 })

@@ -251,8 +251,8 @@ nav a:hover {
 
 .speakers-section {
     display: block;
-    margin-top: -2%;
-    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-bottom: 10%;
 }
 
 .speaker-bio {
@@ -279,7 +279,7 @@ nav a:hover {
 .speakers-img-right {
     width: 11em;
     position: absolute;
-    margin-top: 6%;
+    margin-top: 3.5%;
     margin-left: 1%;
     transform: scaleX(-1);
 }
@@ -344,14 +344,14 @@ nav a:hover {
 .code-img-left {
     width: 11em;
     position: absolute;
-    margin-top: 6%;
+    margin-top: -2%;
     margin-left: 74%;
 }
 
 .code-img-right {
     width: 11em;
     position: absolute;
-    margin-top: 6%;
+    margin-top: -1%;
     margin-left: -11%;
     transform: scaleX(-1);
 }
@@ -389,7 +389,8 @@ nav a:hover {
 
 .poster-section {
     padding: 0 10%;
-    margin-top: -10%;
+    margin-top: -15%;
+    margin-bottom: 15%;
 }
 
 .poster-section article,
@@ -409,18 +410,31 @@ nav a:hover {
 
 .comittees li {
     margin-top: 15px;
+    list-style: none;
+}
+
+.registration-section {
+    padding: 0 10%;
+    margin-top: -20%;
+    margin-bottom: 24%;
+}
+
+.registration-section h3 {
+    color: #5cc6d0;
+    font-size: 1.6em;
 }
 
 footer {
-    background-color: #4d38a5;
-    margin-bottom: 0;
-    padding-top: 3.5%;
-    padding-bottom: 3.5%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     position: relative;
+    background-color: #4d38a5;
+    margin-bottom: 0;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    height: 18em;
     z-index: 20;
 }
 
