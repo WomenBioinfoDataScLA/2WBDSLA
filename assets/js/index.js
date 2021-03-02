@@ -220,16 +220,16 @@ function renderCommitteesSection() {
     const committeeContent = $(`
     <h2>Scientific Committee Chairs</h2>
     <ul>
-        <li>Wendy Gonzáles,  Universidad Utalca - CBSM, Chile</li>
+        <li>Wendy González,  Universidad de Talca - CBSM, Chile</li>
         <li>Cristina Marino-Buslje, Fundación Instituto Leloir - CONICET, Argentine</li>
     </ul>
 
-    <h2>Ejecutive Commitee</h2>
+    <h2>Executive Committee</h2>
     <ul>
         <li>Ana Julia Velez Rueda, Universidad Nacional de Quilmes - CONICET, Argentine</li>
         <li>Lucy Jiménez, Universidad de Los Andes, Colombia</li>
-        <li>Georgina Stegmayer, Universidad Nacional del Litoral - CONICET, Argentine</li>
         <li>Cristina Marino-Buslje, Fundación Instituto Leloir - CONICET, Argentine</li>
+        <li>Wendy González,  Universidad de Talca - CBSM, Chile</li>
         <li>Liliane Conteville, IOC, Brazil</li>
         <li>Ivana Feldfeber, Observatorio de Datos con Perspectiva de Género, Argentine</li>
         <li>Agustina Nardo, CIDCA- CONICET, Argentine</li>
