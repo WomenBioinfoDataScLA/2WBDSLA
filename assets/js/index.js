@@ -21,6 +21,7 @@ function cleanBody() {
     disableElement(aboutSection);
     speakersSection.empty();
     $(codeSection).empty();
+    sponsorSection.empty();
 }
 
 function renderCodeCon() {
@@ -40,6 +41,7 @@ function renderCodeCon() {
     const pReport = document.createElement('p');
     const pIntro = document.createElement('p');
     const imgBottom = document.createElement('img');
+    const imgBottom2 = document.createElement('img');
 
 
     h2.innerHTML = "Code of Conduct";
@@ -57,9 +59,13 @@ function renderCodeCon() {
     h3Report.innerHTML = "How to Report Harassment and Discrimination";
     pReport.innerHTML = 'If you are being harassed, notice that someone else is being harassed, or have any other concerns, please act to intercede or ask for help from any member of the Women in Bioinformatics and Data Science LA community, IRC chat admins, website admins, or organizers/representatives of any physical events put on under the auspices of Women in Bioinformatics and Data Science LA. We encourage you to report any incident of harassment, discrimination, or unacceptable behavior as soon as possible. The Women in Bioinformatics and Data Science LA leadership team will take great care to ensure that the assistance provided meets the needs of attendees who were affected.';
 
-    imgBottom.src = "./assets/img/Elementos_mujer 1.png" 
+    imgBottom.src = "./assets/img/hojas.png" 
     imgBottom.alt = "code-img"
-    imgBottom.classList = "code-img-women"
+    imgBottom.classList = "code-img-left"
+
+    imgBottom2.src = "./assets/img/hojas.png" 
+    imgBottom2.alt = "code-img"
+    imgBottom2.classList = "code-img-right"
 
     introDiv.appendChild(h2);
     introDiv.appendChild(pIntro);
@@ -83,6 +89,7 @@ function renderCodeCon() {
     codeSection.appendChild(consequenceDiv);
     codeSection.appendChild(reportDiv);
     codeSection.appendChild(imgBottom);
+    codeSection.appendChild(imgBottom2);
 }
 
 
@@ -93,8 +100,11 @@ const speakersList = [
 
 function renderSpeakersBios() {
     const pictsDivRow = $('<div class="bios-container"></div>');
+    const imgLeft = $(`<img src="./assets/img/hojas.png" alt="hojas-left" class="speakers-img-left">`);
+    const imgRight = $(`<img src="./assets/img/hojas.png" alt="hojas-right" class="speakers-img-right">`);
 
     speakersList.forEach(element => {
+
         const speakerBio = $(`
         <figure class="speaker-bio"> 
             <img src="./assets/img/speakers/${element.img}" alt="${element.name}-img"> 
@@ -106,22 +116,25 @@ function renderSpeakersBios() {
     });
 
     pictsDivRow.appendTo(speakersSection);
+    imgRight.appendTo(speakersSection);
+    imgLeft.appendTo(speakersSection);
 }
 
 
 function renderSponsorshipSection() {
     const sponsorsSectionContent = $(`
     <div class="sponrship-content">
-        <h2>Sponsorship opportunities</h2>
-        <p>The Network of Women in Bioinformatics and Data
-        Science LA is a community seeking to reduce the gender
-        gap in STEM. This is an opportunity to support and
-        promote the dissemination of the work carried out by
-        women and leading dissidents in the fields of IT and
-        academic research</p>
-        <p> We offer a variety of sponsorship opportunities, including advertisement space in our conference program and website.
-        For information on sponsorship opportunities, please download the sponsorship <a target=”_blank” href="https://drive.google.com/file/d/1myA94IjMknfAJIAqnQTTakabAooh5f7z/view?usp=sharing">brochure</a>
-        If you need more information on sponsorship, please email: <a target=”_blank” href="#">womenbioinformaticsnetworkla@gmail.com</a></p>
+    <img src="./assets/img/Elementos_mujer 2.png" alt="hojas">
+    <h2>Sponsorship opportunities</h2>
+    <p>The Network of Women in Bioinformatics and Data
+    Science LA is a community seeking to reduce the gender
+    gap in STEM. This is an opportunity to support and
+    promote the dissemination of the work carried out by
+    women and leading dissidents in the fields of IT and
+    academic research</p>
+    <p> We offer a variety of sponsorship opportunities, including advertisement space in our conference program and website.
+    For information on sponsorship opportunities, please download the sponsorship <a target=”_blank” href="https://drive.google.com/file/d/1myA94IjMknfAJIAqnQTTakabAooh5f7z/view?usp=sharing">brochure</a>
+    If you need more information on sponsorship, please email: <a target=”_blank” href="#">womenbioinformaticsnetworkla@gmail.com</a></p>
     </div>`);
 
     sponsorsSectionContent.appendTo(sponsorSection)

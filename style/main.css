@@ -263,6 +263,21 @@ nav a:hover{
   margin-bottom: 2%;
 }
 
+.speakers-img-left{
+  width: 11em;
+  position: absolute;
+  margin-top: -4%;
+  margin-left: 84%;
+}
+
+.speakers-img-right{
+  width: 11em;
+  position: absolute;
+  margin-top: -3%;
+  margin-left: 1%;
+  transform: scaleX(-1);
+}
+
 .bios-container {
   display: flex;
   flex-direction: row;
@@ -281,7 +296,7 @@ nav a:hover{
 
 .code-of-conduct-section {
   padding: 5% 12%;
-  margin-top: -8%;
+  margin-top: -10%;
 }
 
 .code-suport {
@@ -306,11 +321,19 @@ nav a:hover{
   transform: scale(1.05);
 }
 
-.code-img-women{
+.code-img-left{
   width: 11em;
   position: absolute;
-  margin-top: -14%;
-  margin-left: -14%;
+  margin-top: -4%;
+  margin-left: 74%;
+}
+
+.code-img-right{
+  width: 11em;
+  position: absolute;
+  margin-top: -3%;
+  margin-left: -11%;
+  transform: scaleX(-1);
 }
 
 .code-hojas {
@@ -326,7 +349,8 @@ nav a:hover{
   display: flex;
   flex-direction: column;
   padding: 0 10%;
-  margin-bottom: 5%;
+  margin-bottom: 11%;
+  margin-top: -4%;
 }
 
 .sponsorship-section h2 {
@@ -335,6 +359,13 @@ nav a:hover{
 
 .sponsorship-section p {
   margin-bottom: 2%;
+}
+
+.sponrship-content img {
+  width: 8em;
+  position: absolute;
+  margin-top: -6.3%;
+  margin-left: 59%;
 }
 
 /*----------------------------- FOOTER -----------------------------*/
@@ -348,6 +379,8 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+  z-index: 20;
 }
 
 footer section{
