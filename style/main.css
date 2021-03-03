@@ -388,9 +388,10 @@ nav a:hover {
 }
 
 .poster-section {
+    position: relative;
     padding: 0 10%;
-    margin-top: -15%;
-    margin-bottom: 15%;
+    margin-top: -20%;
+    margin-bottom: 20%;
 }
 
 .poster-section article,
@@ -422,6 +423,27 @@ nav a:hover {
 .registration-section h3 {
     color: #5cc6d0;
     font-size: 1.6em;
+}
+
+.support-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+}
+
+.sponsors-tittle-suport {
+    width: 35em;
+    height: 6em;
+    margin-left: 71%;
+}
+
+.support-div h2 {
+    color: white;
+    font-size: 2em;
+}
+
+.sponsors-logos img {
+    height: 5em;
 }
 
 footer {
