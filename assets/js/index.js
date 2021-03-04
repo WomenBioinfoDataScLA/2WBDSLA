@@ -112,7 +112,9 @@ function renderCodeCon() {
 
 const speakersList = [
     { "name": "Daniela Robles", 'img': 'Daniela_Robles_square.png', "filiation": "UNAM - Mexico" },
-    { "name": "Janet Gonzalez", "img": "Janneth_Gonzalez.png", "filiation": "PUJ - Colombia" }
+    { "name": "Janet Gonzalez", "img": "Janneth_Gonzalez.png", "filiation": "PUJ - Colombia" },
+    { "name": "Sara Cuadros Orellana", 'img': 'Sara_Cuadros.JPG', "filiation": "UCM-Chile" },
+    { "name": "Daiana Mir", 'img': 'daiana_mir.jpg', "filiation": "UGB-CENUR-UdelaR-Uruguay" }
 ];
 
 function renderSpeakersBios() {
@@ -196,14 +198,12 @@ function renderKeyDatesSection() {
 function renderPosterSessionSection() {
     const posterSessionContent = $(`
     <article>
-        <h2>Virtual Poster session</h2>
-        <p>We will hold a virtual poster session that will take place on Twitter and our web site. It will start one week before the conference (21 to 24th September 2020) and will continue until the end of the conference. All official posters will be
-            retweeted by <a target="_blank" href="https://twitter.com/BioinfoLa">@BioinfoLa</a>. Oficial email account: <a href="#">womenbioinformaticsnetworkla@gmail.com</a></p>
+        <h2>Poster Submission</h2>
+        <p>Submitting a poster comprises sending a file in png format of the poster in the indicated format and a pre-record 3-5 minutes presentation explaining the poster.</p>
     </article>
     <article>
-        <h2>Instructions</h2>
-        <p>Participants must create a 45 cm x 53 cm high-resolution image with all the poster information in English, using the background image <a target="_blank" href="#"> provided </a>by
-            the organizing committee. Please send a copy of the poster to the conference official email account, using the Subject: Virtual Poster Session. The file name should be named with the last name of the first author and the poster number:
+        <h2>Poster Instructions</h2>
+        <p>Participants must create a 45 cm x 53 cm high-resolution image with all the poster information in English, using the background image <a target="_blank" href="#"> provided </a> by the organizing committee. The poster should be in png format.  Please send a copy of the poster to the conference official email account, using the Subject: Virtual Poster Session. The file name should be named with the last name of the first author and the poster number:
             “Velez_Rueda_Poster5.png”. <strong> Please send it before the 10th of September </strong>. To clearly explain your work to a broad technical audience, we recommend the following content for the image: Title, author list, affiliation, and
             the abstract: background, or motivation to your approach, method or techniques, results, conclusions, and any related references (Please see the poster bellow as example).
         </p>
