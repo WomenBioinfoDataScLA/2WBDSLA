@@ -444,13 +444,18 @@ nav a:hover {
     margin-left: 67%;
 }
 
-.sponsors-logos {
+.sponsors-logos,
+.orgas-logos {
     margin-top: 3%;
     margin-bottom: 6%;
 }
 
 .sponsors-logos img {
     height: 5em;
+}
+
+.orgas-logo {
+    height: 8em;
 }
 
 footer {

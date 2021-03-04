@@ -16,6 +16,8 @@ const committeeSection = $('#comittees-section');
 const committeeButton = $('#comittees-nav-button');
 const sponsorTitleSuport = document.getElementById('sponsors-tittle-suport');
 const sponsorsLogosDiv = document.getElementById('sponsors-logos');
+const orgasLogosDiv = document.getElementById('orgas-logos');
+
 
 function disableElement(element) {
     element.classList.add('disable');
@@ -28,6 +30,7 @@ function enableElement(element) {
 function cleanBody() {
     disableElement(aboutSection);
     disableElement(sponsorsLogosDiv);
+    disableElement(orgasLogosDiv);
     disableElement(sponsorTitleSuport);
     speakersSection.empty();
     $(codeSection).empty();
