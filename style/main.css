@@ -476,9 +476,9 @@ p:hover {
 
 .support-div span{
     width: 45vw;
-    height: 10vw;
-    background-color: #5cc6d0;
-    border-radius: 2em 0 0 2em;
+    height: 7vw;
+    background-color: rgb(92, 198, 208);
+    border-radius: 2.7em 0px 0px 2.7em;
     margin-left: 58%;
 }
 
@@ -489,10 +489,10 @@ p:hover {
 }
 
 .support-div h2 {
-    margin-top: 7%;
+    margin-top: 5%;
     font-size: 1.7em;
-    margin-left: -5vw;
-    color:white;
+    margin-left: -9vw;
+    color: white;
 }
 
 .sponsors-logos,
