@@ -17,6 +17,9 @@ const committeeButton = $('#comittees-nav-button');
 const sponsorTitleSuport = document.getElementById('sponsors-tittle-suport');
 const sponsorsLogosDiv = document.getElementById('sponsors-logos');
 const orgasLogosDiv = document.getElementById('orgas-logos');
+const datesSection = $('#key-dates');
+const datesbutton = $('#keydates-button');
+const workshopButton = $('#workshops-button');
 
 
 function disableElement(element) {
@@ -38,6 +41,7 @@ function cleanBody() {
     posterSection.empty();
     committeeSection.empty();
     registrationSection.empty();
+    datesSection.empty();
 
 }
 
@@ -68,7 +72,7 @@ function renderCodeCon() {
     pSecurity.innerHTML = 'Participants should be logged in the virtual conference using their full names. Any participant without appropriate identification and not registered will be removed from the session. If you need guidance on how to change your name in the conference ask one of the organizers and they will help you. Participants are expected to participate in an active and authentic way through a kind, considerate and respectful dialogue, thus contributing to the continuity of the community. Also, to be aware of their environment and the rest of the people who participate and notify the organization in case you observe any situation that is dangerous or that violates this Code of Conduct, even if it seems to have no consequences.';
 
     h3Unexpected.innerHTML = "Unexpected behaviour and forms of harassment and discrimination";
-    pUnexpected.innerHTML = "Will be considered as unacceptable behavior:Offensive comments, such as those related to gender, gender identity, gender expression, sexual orientation, physical abilities, mental health, physical appearance, ethnicity or religion. Unwanted comments about a person's lifestyle choices or practices, including those related to food, health, work, parenting, or drug use. Intentional and incorrect use of chosen pronouns or name when referring to a person. Sexual images or comments in public or online spaces, deliberate intimidation, bullying, stalking, following, harassing photography or recording, sustained disruption of talks, IRC chats, electronic meetings, physical meetings or other events, inappropriate physical contact, or unwelcome sexual attention; private communication that does not stop when requested. Other forms of harassment and discriminatory behavior include, but are not limited to: offensive verbal comments related to gender, gender identity and expression, sexual orientation, ability, physical appearance, body size, race, ethnicity, religion, socioeconomic status, caste or creed and are considered unacceptable. If any of these behaviors is detected or reported, participants will be asked to stop and to comply immediately.";
+    pUnexpected.innerHTML = "Will be considered as unacceptable behavior: Offensive comments, such as those related to gender, gender identity, gender expression, sexual orientation, physical abilities, mental health, physical appearance, ethnicity or religion. Unwanted comments about a person's lifestyle choices or practices, including those related to food, health, work, parenting, or drug use. Intentional and incorrect use of chosen pronouns or name when referring to a person. Sexual images or comments in public or online spaces, deliberate intimidation, bullying, stalking, following, harassing photography or recording, sustained disruption of talks, IRC chats, electronic meetings, physical meetings or other events, inappropriate physical contact, or unwelcome sexual attention; private communication that does not stop when requested. Other forms of harassment and discriminatory behavior include, but are not limited to: offensive verbal comments related to gender, gender identity and expression, sexual orientation, ability, physical appearance, body size, race, ethnicity, religion, socioeconomic status, caste or creed and are considered unacceptable. If any of these behaviors is detected or reported, participants will be asked to stop and to comply immediately.";
 
     h3Consequence.innerHTML = "Consequences for Harassment and Discrimination";
     pConsequence.innerHTML = "If a participant engages in harassing behavior, representatives of the community may take reasonable action they deem appropriate, including warning the offender, expulsion from any Women in Bioinformatics and Data Science LA event, or expulsion from mailing lists, IRC chats, discussion boards and other electronic communications channels to resolve the issue. This may include expulsion from Women in Bioinformatics and Data Science LA conference.";
@@ -160,38 +164,19 @@ function renderSponsorshipSection() {
 
 function renderRegistrationSection() {
     const registrationContent = $(`
-    <h2>FAQs Virtual Poster Session 2020</h2>
-    <h3><strong>Who can send an abstract?</strong></h3>
-    <p>This event is open to the entire community, anyone can send an abstract for the poster session and be selected for oral presentation. </p>
-    <h3><strong>How will be the selection for oral presentation?</strong></h3>
-    <p>All abstracts will be reviewed by 2 specialists in the field. According to their recommendations, the Scientific Committee will determine if the abstract is presented as oral or poster. </p>
-    <h3><strong>Which will be the virtual poster session format?</strong></h3>
-    <p>Virtual poster sessions will be done through a 10-minute live presentation in a virtual room. Every room will count with a host and a moderator. At the end of the presentations, 5 minutes discussions will be allowed in small groups. </p>
-    <h3><strong>How is the format poster?</strong></h3>
-    <p>Participants will receive from the official email account a template PowerPoint slide.</p>
-    <h3><strong>Which topics does congress have?</strong></h3>
-    <p>Deep Learning </p>
-    <p>Data mining and big data analysis</p>
-
-    <p>Chemoinformatics and Drug discovery</p>
-    <p>Genomics and Evolution</p>
-    <p>Systems Biology</p>
-    <p>Structural Bioinformatics - Biomolecular Simulations</p>
-    <p>Bioinformatics and Diseases</p>
-    <p>Education</p>
-
-    <hr style="border:2px solid white;">
-    <hr style="border:2px solid white;">
-    <h2>Volunteers</h2>
+    <h2>Registration</h2>
+    <p><strong>Latin American Congress of Women in Bioinformatics and Data Science</strong> is a free event open to the entire community, which brings together professionals, students, academics, businesswomen, public officials and hobbyists. The main purpose of the meeting is to promote and make visible the research carried out by women and dissidents in the field of Bioinformatics and Data Science.</p>
+    <p>This congress focuses on the areas of systems biology, omics technologies, artificial intelligence, machine learning, data science, data mining and high performance computing with biological applications in public and private sectors</p>
+    <hr class="separator">
+    <p>Access to the registration form <a target="_blank" href="https://forms.gle/AKFMaoqqZ1ghvXN58"> here</a></p>
+    <p>Submit your abstract <a target="_blank" href="https://easychair.org/conferences/?conf=2ndwbdsla" >here</a></p>
+    <hr class="separator">
+    
+    <h3>Volunteers</h3>
     <p>If you want to join the volunteers team for helping us during the event, pleas clomplete this <a target="_blank" href="#">form</a> and soon you will be contacted. Thank you!!</p>
-
     `);
 
     registrationContent.appendTo(registrationSection);
-}
-
-function renderKeyDatesSection() {
-    const keydatesContent = $(``)
 }
 
 
@@ -207,15 +192,38 @@ function renderPosterSessionSection() {
             “Velez_Rueda_Poster5.png”. <strong> Please send it before the 10th of September </strong>. To clearly explain your work to a broad technical audience, we recommend the following content for the image: Title, author list, affiliation, and
             the abstract: background, or motivation to your approach, method or techniques, results, conclusions, and any related references (Please see the poster bellow as example).
         </p>
-        <p>Participants should post their posters on Twitter at the beginning of the conference using a single tweet, which should include the official poster image, with a brief explanation. In order to increase their visibility and associate them with
-            the conference, please use the hashtags <strong>#VirtualPostersSession</strong> and <strong>#WBDS_LA</strong>. Please use the handle <a target="_blank" href="https://twitter.com/BioinfoLa">@BioinfoLa</a> as well so that we will receive
-            a notification. Other suggestions for hashtags are <strong>#bioinformatics #datascience #WomenSTEM</strong> or the topics of the congress <strong>#DeepLearning #DataMining&BigDataAnalysis #Chemoinformatics&DrugDiscovery #Genomics&Evolution #SystemsBiology #StructuralBioinformatics #BiomolecularSimulations
-                #Bioinformatics&Diseases #Education</strong>
+        <p>
+        Participants should post their posters on Twitter at the beginning of the conference using a single tweet, which should include the official poster image, with a brief explanation. In order to increase their visibility and associate them with the conference, please use the hashtags <strong>#VirtualPostersSession</strong> and </strong>#2WBDS_LA<strong>. 
+        Please use the handle <a target="_blank" href="https://twitter.com/BioinfoLa">@BioinfoLa</a> as well so that we will receive a notification. Other suggestions for hashtags are <strong>#bioinformatics #datascience #WomenSTEM</strong> or the topics of the congress <strong>#DeepLearning #DataMining&BigDataAnalysis #Chemoinformatics&DrugDiscovery #Genomics&Evolution #SystemsBiology #StructuralBioinformatics #BiomolecularSimulations #Bioinformatics&Diseases #Education</strong>
         </p>
         <p>If the poster is associated with a preprint/publication, we advise you to post a second tweet with its url. </p>
-        <p>In case you are in a country that does not allow for Twitter posting, please contact us and we will post it for you on the <a target="_blank" href="https://twitter.com/BioinfoLa">@BioinfoLa</a> page.</p>
-        <p>You should also send a pre-record 3-5 minute presentation which will be uploaded to our <a target="_blank" href="https://www.youtube.com/watch?v=anq8YaRMQDo&feature=youtu.be">youtube channel</a>. If that is the case, please send it to the
-            official email account. <strong> Please send it before the 10th of September </strong>. The prerecorded poster videos will be transmited on a virtual poster session and Open MIC track, with space for questions on live. You should also be around to reply to any comments that may arise.</p>
+        <p>In case you are in a country that does not allow for Twitter posting, If that is the case, please send it to the official email account, before the 10th of September.</p>
+
+        <h2>Virtual Poster session</h2>
+        <p>We will hold a virtual poster session that will take place on Twitter and our website. It will start one week before the conference (22 to 24th September 2020) and will continue until the end of the conference. All official posters will be retweeted by <a target="_blank" href="https://twitter.com/BioinfoLa">@BioinfoLa</a>. Official email account: <a href="#" target="_blank">womenbioinformaticsnetworkla@gmail.com</a>
+        You should also send a pre-record 3-5 minute presentation which will be uploaded to our <a target="_blank" href="https://www.youtube.com/watch?v=anq8YaRMQDo&feature=youtu.be">youtube channel</a>. If that is the case, please send it to the official email account. Please send it before the 10th of September . 
+        The prerecorded poster videos will be transmitted on a virtual poster session and Open MIC track, with space for questions on live. You should also be around to reply to any comments that may arise.
+        </p>
+ 
+        <h2>FREQUENTLY ASKED QUESTIONS</h2>
+        <h3><strong>Who can send an abstract?</strong></h3>
+        <p>This event is open to the entire community, anyone can send an abstract for the poster session and be selected for oral presentation. </p>
+        <h3><strong>How will be the selection for oral presentation?</strong></h3>
+        <p>All abstracts will be reviewed by 2 specialists in the field. According to their recommendations, the Scientific Committee will determine if the abstract is presented as oral or poster. </p>
+        <h3>Who will receive a certificate for the poster presentation?</h3>
+        <p>Only one registered author by poster will receive a certificate. By default it will be the first author of the poster. In case that the first author is not registered to the congress, the registered author will receive the certificate. In such a case, the responsible for the poster (registered to the congerss) must notify the organizers at the time of submission by email.</p>
+        <h3>Who is the corresponding author?</h3>
+        <p>Correspondence will be sent to the author indicated as corresponding at the time of submission.</p>
+        <h3>Can I send only the poster?</h3>
+        <p>No. Poster submission requires a poster and a video</p>
+        <h3>Can I send only the video?</h3>
+        <p>No, Poster submission requires a poster and a video</p>
+        <h3><strong>Which topics does congress have?</strong></h3>
+        <p>Deep Learning </p>
+        <p>Data mining and big data analysis, Chemoinformatics and Drug discovery</p>
+        <p>Genomics and Evolution, Systems Biology</p>
+        <p>Structural Bioinformatics - Biomolecular Simulations </p>
+        <p>Bioinformatics and Diseases, Education</p>
     </article>
     `);
 
@@ -230,7 +238,7 @@ function renderCommitteesSection() {
         <li>Wendy González,  Universidad de Talca - CBSM, Chile</li>
         <li>Cristina Marino-Buslje, Fundación Instituto Leloir - CONICET, Argentine</li>
     </ul>
-
+    <hr class="separator">
     <h2>Executive Committee</h2>
     <ul>
         <li>Ana Julia Velez Rueda, Universidad Nacional de Quilmes - CONICET, Argentine</li>
@@ -240,7 +248,7 @@ function renderCommitteesSection() {
         <li>Liliane Conteville, IOC, Brazil</li>
         <li>Ivana Feldfeber, Observatorio de Datos con Perspectiva de Género, Argentine</li>
         <li>Agustina Nardo, CIDCA- CONICET, Argentine</li>
-        <li>Mercedes Didier Garnham, Genetics and bioinformatics Lab, IIB-UNSAM, Argentine</li>
+        <li>Mercedes Didier Garnham, Trypanosomatics Lab, IIB-UNSAM, Argentine</li>
     </ul>
     `);
 
@@ -292,4 +300,16 @@ sponsorsButton.on('click', () => {
 registrationButton.on('click', () => {
     cleanBody();
     renderRegistrationSection();
+})
+
+
+datesbutton.on('click', () => {
+    event.preventDefault()
+    datesSection.toggleClass('disable');
+
+})
+
+
+workshopButton.on('click', () => {
+    event.preventDefault()
 })

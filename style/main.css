@@ -31,9 +31,10 @@ h2 {
 }
 
 h3 {
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: center;
     margin-bottom: 1%;
+    color: #5cc6d0;
 }
 
 h4 {
@@ -63,7 +64,7 @@ p {
 
 a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 27px;
     line-height: 27px;
     text-align: center;
 }
@@ -80,6 +81,13 @@ nav {
     height: 6vw;
     width: 100%;
     background: white;
+}
+
+.separator {
+    width: 102%;
+    height: 3.5em;
+    background-color: white;
+    border: white;
 }
 
 .logofigure {
@@ -181,7 +189,7 @@ nav a:hover {
     margin-top: 7%;
 }
 
-.about p:hover {
+p:hover {
     transform: scale(1.05);
 }
 
@@ -425,6 +433,33 @@ nav a:hover {
     font-size: 1.6em;
 }
 
+.key-dates {
+    margin-top: -26%;
+    margin-left: -4%;
+}
+
+.table {
+    font-family: Lato;
+    font-weight: normal;
+    color: #545454;
+    text-align: center;
+    margin-left: 34%;
+    margin-bottom: 5%;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table td,
+.table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-size: 1.6em;
+}
+
 .support-div {
     display: flex;
     flex-direction: column;
@@ -451,11 +486,12 @@ nav a:hover {
 }
 
 .sponsors-logos img {
-    height: 5em;
+    height: 3.5em;
+    margin-left: 25px;
 }
 
 .orgas-logo {
-    height: 8em;
+    height: 5em;
 }
 
 footer {
