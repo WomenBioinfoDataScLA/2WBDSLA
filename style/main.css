@@ -52,7 +52,7 @@ h6 {
 
 p,
 li {
-    font-size: 1.6em;
+    font-size: 1.4em;
     color: rgb(85, 85, 85);
     line-height: 27px;
     text-align: center;
@@ -64,7 +64,7 @@ p {
 
 a {
     text-decoration: none;
-    font-size: 27px;
+    font-size: 23px;
     line-height: 27px;
     text-align: center;
 }
@@ -196,8 +196,8 @@ p:hover {
 .aboutfigure {
     transform: rotate(5deg);
     position: absolute;
-    margin-left: -15.5%;
-    margin-top: -3.9%;
+    margin-left: -20.5%;
+    margin-top: -4.9%;
     width: 7vw;
 }
 
@@ -266,7 +266,7 @@ p:hover {
 .speaker-bio {
     display: flex;
     flex-direction: column;
-    padding: 2% 10%;
+    padding: 2% 7%;
     text-align: center;
 }
 
@@ -287,7 +287,7 @@ p:hover {
 .speakers-img-right {
     width: 11em;
     position: absolute;
-    margin-top: 3.5%;
+    margin-top: 1.5%;
     margin-left: 1%;
     transform: scaleX(-1);
 }
@@ -391,8 +391,8 @@ p:hover {
 .sponrship-content img {
     width: 8em;
     position: absolute;
-    margin-top: -3.9%;
-    margin-left: 53.1%;
+    margin-top: -7%;
+    margin-left: 52.1%;
 }
 
 .poster-section {
@@ -475,8 +475,8 @@ p:hover {
 .support-div h2 {
     color: white;
     font-size: 2em;
-    margin-top: -4%;
-    margin-left: 67%;
+    margin-top: -6%;
+    margin-left: 72%;
 }
 
 .sponsors-logos,
