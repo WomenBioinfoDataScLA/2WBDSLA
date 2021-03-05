@@ -289,6 +289,7 @@ p:hover {
     width: 11em;
     position: absolute;
     margin-left: 84%;
+    margin-top: 5.5%;
 }
 
 .speakers-img-right {
@@ -363,14 +364,14 @@ p:hover {
 .code-img-left {
     width: 11em;
     position: absolute;
-    margin-top: -2%;
+    margin-top: 1%;
     margin-left: 74%;
 }
 
 .code-img-right {
     width: 11em;
     position: absolute;
-    margin-top: -1%;
+    margin-top: 1%;
     margin-left: -11%;
     transform: scaleX(-1);
 }
