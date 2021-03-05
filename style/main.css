@@ -132,7 +132,7 @@ nav li {
 
 nav a {
     color: rgb(254, 254, 254);
-    font-size: 17px;
+    font-size: 1.5em;
 }
 
 nav a:hover {
@@ -264,10 +264,14 @@ p:hover {
 }
 
 .speaker-bio {
+    text-align: center;
     display: flex;
     flex-direction: column;
-    padding: 2% 7%;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    width: 20vw;
+    height: 350px;
 }
 
 .speaker-bio img {
@@ -299,7 +303,11 @@ p:hover {
 
 .bios-container {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    width: 100%;
 }
 
 .caption-bio {
@@ -466,6 +474,14 @@ p:hover {
     margin-left: 7%;
 }
 
+.support-div span{
+    width: 45vw;
+    height: 10vw;
+    background-color: #5cc6d0;
+    border-radius: 2em 0 0 2em;
+    margin-left: 58%;
+}
+
 .sponsors-tittle-suport {
     width: 35em;
     height: 6em;
@@ -473,10 +489,10 @@ p:hover {
 }
 
 .support-div h2 {
-    color: white;
-    font-size: 2em;
-    margin-top: -6%;
-    margin-left: 72%;
+    margin-top: 7%;
+    font-size: 1.7em;
+    margin-left: -5vw;
+    color:white;
 }
 
 .sponsors-logos,
@@ -486,7 +502,7 @@ p:hover {
 }
 
 .sponsors-logos img {
-    height: 3.5em;
+    height: 2em;
     margin-left: 25px;
 }
 

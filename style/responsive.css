@@ -34,8 +34,8 @@
         z-index: 20;
     }
     .logofigure img{
-    width:auto;
-    height:8.9vw;
+        width:auto;
+        height:8.9vw;
     }
    
     nav ul{
@@ -94,7 +94,7 @@
     }
 
     .code-button-section figcaption {
-        font-size: 0.8em;
+        font-size: 1.2em;
         color: white;
         margin-top: -4.5%;
     }
@@ -103,38 +103,44 @@
         width: 10vw;
         margin-bottom: -5px;
       }
-      .code-suport {
-        width: 24vw;
-      }
+    
+    .code-suport {
+        width: 26vw;
+    }
     
     .tittle-div {
         margin-top: 5%;
     }
+    .sponsors-tittle-suport{
+        margin-left: 65%;
+        overflow-x: hidden;
+        display: none;
+    }
 
     .tittle-suport {
         position: absolute;
-        margin-left: -50%;
+        margin-left: -60%;
         margin-top: 3%;
         width: 80%;
     }
       
     .tittle-texts {
-    padding-top: 7%;
+        padding-top: 7%;
     }
     
     .tittle-div h2{
-    font-size: 3.5vw;
-    margin-left: 3%;
+        font-size: 3.5vw;
+        margin-left: 3%;
     }
     
     .tittle-div h3 {
-    font-size: 3vw;
-    margin-left: 3%;
-    margin-top: 1%;
+        font-size: 3vw;
+        margin-left: 3%;
+        margin-top: 1%;
     }
 
     .button-div {
-    margin-top: 16%;
+        margin-top: 16%;
     }
     footer{
         flex-direction: column;
@@ -149,6 +155,7 @@
         flex-direction: row;
         width: 88%;
         justify-content: center;
+        margin-bottom: 2vw;
     }
 
     footer section {
@@ -158,7 +165,13 @@
         margin-top: 2%;
         margin-bottom: 3%;
     }
+    .medialinks{
+        margin-top: 2vw;
+    }
 
+    address{
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width:500px) {
