@@ -189,12 +189,12 @@ function renderPosterSessionSection() {
     <article>
         <h2>Poster Instructions</h2>
         <p>Participants must create a 45 cm x 53 cm high-resolution image with all the poster information in English, using the background image <a target="_blank" href="#"> provided </a> by the organizing committee. The poster should be in png format.  Please send a copy of the poster to the conference official email account, using the Subject: Virtual Poster Session. The file name should be named with the last name of the first author and the poster number:
-            “Velez_Rueda_Poster5.png”. <strong> Please send it before the 10th of September </strong>. To clearly explain your work to a broad technical audience, we recommend the following content for the image: Title, author list, affiliation, and
+            “Velez_Rueda_Poster5.png”. Please send it before the 10th of September. To clearly explain your work to a broad technical audience, we recommend the following content for the image: Title, author list, affiliation, and
             the abstract: background, or motivation to your approach, method or techniques, results, conclusions, and any related references (Please see the poster bellow as example).
         </p>
         <p>
         Participants should post their posters on Twitter at the beginning of the conference using a single tweet, which should include the official poster image, with a brief explanation. In order to increase their visibility and associate them with the conference, please use the hashtags <strong>#VirtualPostersSession</strong> and </strong>#2WBDS_LA<strong>. 
-        Please use the handle <a target="_blank" href="https://twitter.com/BioinfoLa">@BioinfoLa</a> as well so that we will receive a notification. Other suggestions for hashtags are <strong>#bioinformatics #datascience #WomenSTEM</strong> or the topics of the congress <strong>#DeepLearning #DataMining&BigDataAnalysis #Chemoinformatics&DrugDiscovery #Genomics&Evolution #SystemsBiology #StructuralBioinformatics #BiomolecularSimulations #Bioinformatics&Diseases #Education</strong>
+        Please use the handle <a target="_blank" href="https://twitter.com/BioinfoLa">@BioinfoLa</a> as well so that we will receive a notification. Other suggestions for hashtags are #bioinformatics #datascience #WomenSTEM or the topics of the congress <strong>#DeepLearning #DataMining&BigDataAnalysis #Chemoinformatics&DrugDiscovery #Genomics&Evolution #SystemsBiology #StructuralBioinformatics #BiomolecularSimulations #Bioinformatics&Diseases #Education</strong>
         </p>
         <p>If the poster is associated with a preprint/publication, we advise you to post a second tweet with its url. </p>
         <p>In case you are in a country that does not allow for Twitter posting, If that is the case, please send it to the official email account, before the 10th of September.</p>
@@ -206,9 +206,9 @@ function renderPosterSessionSection() {
         </p>
  
         <h2>FREQUENTLY ASKED QUESTIONS</h2>
-        <h3><strong>Who can send an abstract?</strong></h3>
+        <h3>Who can send an abstract?</h3>
         <p>This event is open to the entire community, anyone can send an abstract for the poster session and be selected for oral presentation. </p>
-        <h3><strong>How will be the selection for oral presentation?</strong></h3>
+        <h3>How will be the selection for oral presentation?</h3>
         <p>All abstracts will be reviewed by 2 specialists in the field. According to their recommendations, the Scientific Committee will determine if the abstract is presented as oral or poster. </p>
         <h3>Who will receive a certificate for the poster presentation?</h3>
         <p>Only one registered author by poster will receive a certificate. By default it will be the first author of the poster. In case that the first author is not registered to the congress, the registered author will receive the certificate. In such a case, the responsible for the poster (registered to the congerss) must notify the organizers at the time of submission by email.</p>
@@ -218,7 +218,7 @@ function renderPosterSessionSection() {
         <p>No. Poster submission requires a poster and a video</p>
         <h3>Can I send only the video?</h3>
         <p>No, Poster submission requires a poster and a video</p>
-        <h3><strong>Which topics does congress have?</strong></h3>
+        <h3>Which topics does congress have?</h3>
         <p>Deep Learning </p>
         <p>Data mining and big data analysis, Chemoinformatics and Drug discovery</p>
         <p>Genomics and Evolution, Systems Biology</p>

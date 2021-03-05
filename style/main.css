@@ -132,7 +132,7 @@ nav li {
 
 nav a {
     color: rgb(254, 254, 254);
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 nav a:hover {
@@ -207,7 +207,7 @@ p:hover {
     justify-content: space-around;
 }
 
-.button-div a{
+.button-div a {
     font-size: 2em;
 }
 
@@ -416,6 +416,7 @@ p:hover {
 .poster-section article,
 .poster-section p {
     margin-bottom: 5%;
+    font-weight: lighter;
 }
 
 .comittees {
@@ -478,9 +479,9 @@ p:hover {
     margin-bottom: 3%;
 }
 
-.support-div span{
+.support-div span {
     width: 45vw;
-    height: 7vw;
+    height: 5vw;
     background-color: rgb(92, 198, 208);
     border-radius: 2.7em 0px 0px 2.7em;
     margin-left: 58%;
@@ -493,7 +494,7 @@ p:hover {
 }
 
 .support-div h2 {
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: 2.1em;
     margin-left: -9vw;
     color: white;
@@ -505,7 +506,7 @@ p:hover {
 }
 
 .sponsors-logos img {
-    height: 4em;
+    height: 5.5em;
     margin-left: 25px;
 }
 
