@@ -1,3 +1,19 @@
+@media screen and (min-width:800px) and (max-width: 1050px){
+    .code-button-section figcaption{
+        font-size: 1.2em;
+    }
+    .support-div h2 {
+        margin-top: 4%;
+    }
+    .button-div {
+        margin-left: -13%;
+        margin-right: -13%;
+    }
+    .button-div a {
+        font-size: 1.7em;
+    }
+}
+
 @media screen and (max-width:800px) {
     body {
         background-color: rgb(255, 255, 255);
@@ -94,9 +110,9 @@
     }
 
     .code-button-section figcaption {
-        font-size: 1.2em;
+        font-size: 1.7em;
         color: white;
-        margin-top: -4.5%;
+        margin-top: -6.5%;
     }
 
     .mujer-code{
@@ -105,7 +121,7 @@
       }
     
     .code-suport {
-        width: 26vw;
+        width: 39vw;
     }
     
     .tittle-div {
@@ -117,11 +133,22 @@
         display: none;
     }
 
+    .sponrship-content img {
+        margin-top: -6%;
+        margin-left: 48%;
+    }
+
     .tittle-suport {
         position: absolute;
         margin-left: -60%;
         margin-top: 3%;
         width: 80%;
+    }
+
+    .support-div h2 {
+        margin-top: 3%;
+        margin-left: -5vw;
+        font-size: 1.7em;
     }
       
     .tittle-texts {
@@ -140,8 +167,15 @@
     }
 
     .button-div {
-        margin-top: 16%;
+        flex-direction: column;
     }
+    .button-div div{ 
+        margin-bottom: 5%;
+    }
+    .button-div a{ 
+        font-size: 1.5em;
+    }
+
     footer{
         flex-direction: column;
     }
@@ -170,7 +204,11 @@
     }
 
     address{
-        font-size: 16px;
+        font-size: .9em;
+    }
+
+    .speakers-img-right, .speakers-img-left{
+        display: none;
     }
 }
 
