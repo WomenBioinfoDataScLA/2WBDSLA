@@ -118,7 +118,8 @@ const speakersList = [
     { "name": "Daniela Robles", 'img': 'Daniela_Robles_square.png', "filiation": "UNAM - Mexico" },
     { "name": "Janet Gonzalez", "img": "Janneth_Gonzalez.png", "filiation": "PUJ - Colombia" },
     { "name": "Sara Cuadros Orellana", 'img': 'Sara_Cuadros.JPG', "filiation": "UCM-Chile" },
-    { "name": "Daiana Mir", 'img': 'daiana_mir.jpg', "filiation": "UGB-CENUR-UdelaR-Uruguay" }
+    { "name": "Daiana Mir", 'img': 'daiana_mir.jpg', "filiation": "UGB-CENUR-UdelaR-Uruguay" },
+    { "name": "Maria Luisa Serrano García", 'img': 'Maria_Luisa_Serrano.jpg', "filiation": "Fac. de Farmacia-UCV Venezuela" }
 ];
 
 function renderSpeakersBios() {
