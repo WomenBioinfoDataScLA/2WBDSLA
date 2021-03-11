@@ -21,8 +21,8 @@ const datesSection = $('#key-dates');
 const datesbutton = $('#keydates-button');
 const workshopButton = $('#workshops-button');
 
-const spanishButton  = document.getElementById('spanish-button');
-const portugueseButton  = document.getElementById('portuguese-button');
+const spanishButton = document.getElementById('spanish-button');
+const portugueseButton = document.getElementById('portuguese-button');
 const h1About = document.getElementById('about-h1');
 const pAbout = document.getElementById('about-p');
 const ConductText = document.getElementById('conduct-text');
@@ -138,7 +138,8 @@ const speakersList = [
     { "name": "Sara Cuadros Orellana", 'img': 'Sara_Cuadros.JPG', "filiation": "UCM-Chile" },
     { "name": "Patricia Acosta Vargas", 'img': 'Patricia Acosta.jpg', "filiation": "UDLA - Chile" },
     { "name": "Daiana Mir", 'img': 'daiana_mir.jpg', "filiation": "UGB-CENUR-UdelaR-Uruguay" },
-    { "name": "Maria Luisa Serrano García", 'img': 'Maria_Luisa_Serrano.jpg', "filiation": "Fac. de Farmacia-UCV Venezuela" }
+    { "name": "Maria Luisa Serrano García", 'img': 'Maria_Luisa_Serrano.jpg', "filiation": "Fac. de Farmacia-UCV Venezuela" },
+    { "name": "Han Sun", 'img': 'Han_sun.jpeg', "filiation": "Leibniz-Forschungsinstitut - Germany" }
 ];
 
 function renderSpeakersBios() {
