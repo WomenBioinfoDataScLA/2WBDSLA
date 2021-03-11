@@ -21,6 +21,24 @@ const datesSection = $('#key-dates');
 const datesbutton = $('#keydates-button');
 const workshopButton = $('#workshops-button');
 
+const spanishButton  = document.getElementById('spanish-button');
+const portugueseButton  = document.getElementById('portuguese-button');
+const h1About = document.getElementById('about-h1');
+const pAbout = document.getElementById('about-p');
+const ConductText = document.getElementById('conduct-text');
+const h2Title = document.getElementById('tittle-h2');
+const h3Title = document.getElementById('tittle-h3');
+const h2dates = document.getElementById('key-dates-h2');
+const thdates = document.getElementById('key-dates-th');
+const open1 = document.getElementById('date-open-1');
+const open2 = document.getElementById('date-open-2');
+const close1 = document.getElementById('date-close-1');
+const close2 = document.getElementById('date-close-2');
+const notify1 = document.getElementById('date-notify-1');
+const notify2 = document.getElementById('date-notify-2');
+const h2Sponsors = document.getElementById('sponsors-h2');
+const h4Contact = document.getElementById('contact-h4');
+const h4Media = document.getElementById('socialmedia-h4');
 
 function disableElement(element) {
     element.classList.add('disable');
@@ -257,6 +275,58 @@ function renderCommitteesSection() {
     committeeContent.appendTo(committeeSection)
 }
 
+function renderPortuguese() {
+    registrationButton.text('Inscreva-se');
+    speakersButton.text('Palestrantes');
+    sponsorsButton.text('Patrocinadores');
+    committeeButton.text('Organizadoras');
+    h1About.innerHTML = "2ª Conferência de Mulheres em Bioinformática e Ciência de Dados LA";
+    pAbout.innerHTML = "O Congresso Latino-Americano de Mulheres em Bioinformática e Ciência de Dados é um evento gratuito aberto a toda a comunidade, que reúne profissionais, estudantes, acadêmicas, empresárias, funcionários públicos e amadores. O principal objetivo do encontro é divulgar e dar visibilidade à pesquisa desenvolvida por mulheres e dissidentes da área de Bioinformática e Ciência de Dados. Este congresso foca nas áreas de biologia de sistemas, tecnologias ômicas, inteligência artificial, aprendizado de máquina, ciência de dados, mineração de dados e computação de alto desempenho com aplicações biológicas nos setores público e privado.";
+    ConductText.innerHTML = "Código de Conduta";
+    h2Title.innerHTML = "CONGRESSO VIRTUAL GRATUITO";
+    h3Title.innerHTML = "de 22 a 24 de setembro de 2021";
+    workshopButton.text('Cursos');
+    datesbutton.text('Datas Importantes');
+    posterButton.text('Sessão de Pôsteres');
+    h2dates.innerHTML = "Datas Importantes";
+    thdates.innerHTML = "Envio de resumos para palestras e pôsteres";
+    open1.innerHTML = "Abertura da Chamada para Resumo";
+    open2.innerHTML = "15 de abril de 2021";
+    close1.innerHTML = "Encerramento da Chamada para Resumo";
+    close2.innerHTML = "1º de julho de 2021";
+    notify1.innerHTML = "Notificação de Aceitação de Pôster";
+    notify2.innerHTML = "30 de julho de 2021";
+    h2Sponsors.innerHTML = "Apoie este evento";
+    h4Contact.innerHTML = "Contate-nos por e-mail:";
+    h4Media.innerHTML = "Nos siga nas redes sociais:";
+}
+
+function renderSpanish() {
+    registrationButton.text('Registrarse');
+    speakersButton.text('Oradoras');
+    sponsorsButton.text('Patrocinadores');
+    committeeButton.text('Organizadoras');
+    h1About.innerHTML = "2do Congreso de Mujeres en Bioinformática y Ciencia de Datos LA";
+    pAbout.innerHTML = "El Congreso Latinoamericano de Mujeres en Bioinformática y Ciencia de Datos es un evento gratuito abierto a toda la comunidad, que reúne a profesionales, estudiantes, académicas, empresarias, funcionarias y amateurs. El objetivo principal del encuentro es Dar a conocer y dar visibilidad a la investigación que realizan mujeres y disidentes en el área de Bioinformática y Ciencia de Datos. Este congreso se centra en las áreas de biología de sistemas, tecnologías ómicas, inteligencia artificial, aprendizaje automático, ciencia de datos, minería de datos y Rendimiento informático de alto nivel con aplicaciones biológicas en el sector público y privado. ";
+    ConductText.innerHTML = "Código de conducta";
+    h2Title.innerHTML = "CONGRESO VIRTUAL GRATIS";
+    h3Title.innerHTML = "22-24 de septiembre de 2021";
+    workshopButton.text('Cursos');
+    datesbutton.text('Fechas importantes');
+    posterButton.text('Sesión de Póster');
+    h2dates.innerHTML = "Fechas importantes";
+    thdates.innerHTML = "Envío de resúmenes para conferencias y carteles";
+    open1.innerHTML = "Apertura de la convocatoria de resumen";
+    open2.innerHTML = "15 de abril de 2021";
+    close1.innerHTML = "Convocatoria de cierre para resumen";
+    close2.innerHTML = "1 de julio de 2021";
+    notify1.innerHTML = "Notificación de aceptación de póster";
+    notify2.innerHTML = "30 de julio de 2021";
+    h2Sponsors.innerHTML = "Apoya este evento";
+    h4Contact.innerHTML = "Contáctenos por correo electrónico:";
+    h4Media.innerHTML = "Síganos en las redes sociales:";
+}
+
 cross.addEventListener("click", () => {
     disableElement(cross);
     enableElement(ham);
@@ -311,7 +381,14 @@ datesbutton.on('click', () => {
 
 })
 
-
 workshopButton.on('click', () => {
     event.preventDefault()
 })
+
+spanishButton.addEventListener('click', () => {
+    renderSpanish();
+});
+
+portugueseButton.addEventListener('click', () => {
+    renderPortuguese();
+});
