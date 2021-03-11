@@ -263,7 +263,7 @@ function renderCommitteesSection() {
     <h2>Executive Committee</h2>
     <ul>
         <li>Ana Julia Velez Rueda, Universidad Nacional de Quilmes - CONICET, Argentine</li>
-        <li>Lucy Jiménez, IT - MAchine Learning - Mercado Libre, Colombia</li>
+        <li>Lucy Jiménez, IT - Machine Learning - Mercado Libre, Colombia</li>
         <li>Liliane Conteville, IOC, Brazil</li>
         <li>Ivana Feldfeber, Observatorio de Datos con Perspectiva de Género, Argentine</li>
         <li>Agustina Nardo, CIDCA- CONICET, Argentine</li>
