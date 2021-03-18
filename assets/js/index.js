@@ -139,6 +139,7 @@ const speakersList = [
     { "name": "Patricia Acosta Vargas", 'img': 'Patricia Acosta.jpg', "filiation": "UDLA - Chile" },
     { "name": "Daiana Mir", 'img': 'daiana_mir.jpg', "filiation": "UGB-CENUR-UdelaR-Uruguay" },
     { "name": "Maria Luisa Serrano García", 'img': 'Maria_Luisa_Serrano.jpg', "filiation": "Fac. de Farmacia-UCV Venezuela" },
+    { "name": "Gabriela de Queiroz", 'img': 'Gabriela_Queiroz.jpg', "filiation": "IBM - USA" },
     { "name": "Han Sun", 'img': 'Han_sun.jpeg', "filiation": "Leibniz-Forschungsinstitut - Germany" }
 ];
 
