@@ -138,9 +138,9 @@ const speakersList = [
     { "name": "Sara Cuadros Orellana", 'img': 'Sara_Cuadros.JPG', "filiation": "UCM-Chile" },
     { "name": "Patricia Acosta Vargas", 'img': 'Patricia Acosta.jpg', "filiation": "UDLA - Chile" },
     { "name": "Daiana Mir", 'img': 'daiana_mir.jpg', "filiation": "UGB-CENUR-UdelaR-Uruguay" },
-    { "name": "Maria Luisa Serrano García", 'img': 'Maria_Luisa_Serrano.jpg', "filiation": "Fac. de Farmacia-UCV Venezuela" },
-    { "name": "Gabriela de Queiroz", 'img': 'Gabriela_Queiroz.jpg', "filiation": "IBM - USA" },
-    { "name": "Han Sun", 'img': 'Han_sun.jpeg', "filiation": "Leibniz-Forschungsinstitut - Germany" }
+    { "name": "Maria Luisa Serrano García", 'img': 'Maria_Luisa_Serrano_squared.jpg', "filiation": "Fac. de Farmacia-UCV Venezuela" },
+    { "name": "Gabriela de Queiroz", 'img': 'Gabriela_Queiroz_squared.jpg', "filiation": "IBM - USA" },
+    { "name": "Han Sun", 'img': 'Han_sun_squared.jpeg', "filiation": "Leibniz-Forschungsinstitut - Germany" }
 ];
 
 function renderSpeakersBios() {
