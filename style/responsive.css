@@ -35,10 +35,10 @@
       }
       
     .header{
-    height: 9.1vw;
-    padding-left: 22%;
-    padding-right: 12%;
-    justify-content: right;
+        height: 9.1vw;
+        padding-left: 22%;
+        padding-right: 12%;
+        justify-content: right;
     }
     
     .nav-options {
@@ -145,9 +145,15 @@
         width: 80%;
     }
 
+    .support-div span {
+        width: 55vw;
+        height: 7vw;
+        margin-left: 58%;
+    }
+
     .support-div h2 {
         margin-top: 3%;
-        margin-left: -5vw;
+        margin-left: -15vw;
         font-size: 1.7em;
     }
       
@@ -212,7 +218,11 @@
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:550px) {
+    h2{
+        font-size: 1.4em;
+    }
+
     .nav-options {
         position: relative;
         margin-top: 64vw;
@@ -227,6 +237,35 @@
         position: absolute;
         margin-right: 8%;
         margin-top: 2%;
+    }
+
+    .code-suport {
+        width: 43vw;
+        height: 9vw;
+    }
+
+    .code-button-section figcaption {
+        font-size: 5.2vw;
+        margin-top: -8%;
+    }
+
+    .mujer-code {
+        width: 15vw;
+    }
+
+    .support-div span {
+        width: 64vw;
+        height: 9vw;
+        margin-left: 52%;
+    }
+
+    .support-div h2 {
+        font-size: 1.1em;
+    }
+
+    .sponsors-logos img {
+        height: 15vw;
+        margin-left: 0;
     }
 }
 
