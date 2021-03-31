@@ -510,6 +510,10 @@ p:hover {
     margin-left: 25px;
 }
 
+#spyder {
+    height: 6em;
+}
+
 .orgas-logo {
     height: 6em;
 }
