@@ -25,13 +25,13 @@ h1 {
 }
 
 h2 {
-    font-size: 3.4vw;
+    font-size: 2.9em;
     text-align: center;
     margin-bottom: 1%;
 }
 
 h3 {
-    font-size: 2vw;
+    font-size: 1.7em;
     text-align: center;
     margin-bottom: 1%;
     color: #5cc6d0;
@@ -56,6 +56,7 @@ li {
     color: rgb(85, 85, 85);
     line-height: 27px;
     text-align: center;
+    list-style-type: none;
 }
 
 p {
@@ -124,7 +125,6 @@ nav ul {
 }
 
 nav li {
-    list-style-type: none;
     margin: 0 1.5vw;
     font-size: 0.9vw;
     font-weight: bold;
@@ -274,7 +274,7 @@ p:hover {
     justify-content: center;
     align-items: center;
     margin: 0 50px;
-    width: 20vw;
+    width: 16em;
     height: 350px;
 }
 
@@ -431,7 +431,6 @@ p:hover {
 
 .comittees li {
     margin-top: 15px;
-    list-style: none;
 }
 
 .registration-section {
@@ -455,7 +454,8 @@ p:hover {
     font-weight: normal;
     color: #545454;
     text-align: center;
-    margin-left: 34%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 5%;
 }
 
@@ -574,7 +574,6 @@ address {
 }
 
 .medialinks li {
-    list-style-type: none;
     margin: 0 1.5vw;
 }
 
