@@ -253,6 +253,7 @@ function renderPosterSessionSection() {
             <li>Chemoinformatics and Drug Discovery</li>
             <li>Genomics and Evolution</li>
             <li>Machine Learning, Data mining and Big Data Analysis</li>
+            <li>Education</li>
         </ul>
     </article>
     `);
