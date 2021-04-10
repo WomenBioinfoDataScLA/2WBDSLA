@@ -299,7 +299,7 @@ function renderPortuguese() {
     h2dates.innerHTML = "Datas Importantes";
     thdates.innerHTML = "Envio de Resumos para Palestras e Pôsteres";
     open1.innerHTML = "Abertura da Chamada para Resumo";
-    open2.innerHTML = "30 de abril de 2021";
+    open2.innerHTML = "15 de abril de 2021";
     close1.innerHTML = "Encerramento da Chamada para Resumo";
     close2.innerHTML = "1º de julho de 2021";
     notify1.innerHTML = "Notificação de Aceitação de Pôster";
@@ -325,7 +325,7 @@ function renderSpanish() {
     h2dates.innerHTML = "Fechas importantes";
     thdates.innerHTML = "Envío de resúmenes para conferencias y carteles";
     open1.innerHTML = "Apertura de la Convocatoria de Resumen";
-    open2.innerHTML = "30 de abril de 2021";
+    open2.innerHTML = "15 de abril de 2021";
     close1.innerHTML = "Convocatoria de Cierre para Resumen";
     close2.innerHTML = "1 de julio de 2021";
     notify1.innerHTML = "Notificación de Aceptación de Póster";
